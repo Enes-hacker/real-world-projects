@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(max-width: 576px){
+.container{
+    width: 100%;
+    height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   flex-wrap: wrap;
+   border-bottom: 3px solid #f2f2f2;
+    /*flex-direction: row;*/
+}
+
+.filters {
+    width: 80%;
+    height: 8vh;
+    border-radius:50px;
+}
+
+.search-bar{
+    width: 92%;
+    border-radius: 60px;
+    padding: 10px 20px;
+    display: flex;
+   /* justify-content: center;*/
+    align-items: center;
+    border: 2px solid #f2f2f2;
+}
+
+.search-bar input{
+    padding: 4px 20px;
+    border: 0;
+    /*outline: none;
+    border: 0;*/
+}
+
+.filter-icon{
+    width: 15%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.selection{
+    width: 72%;
+    height: 7vh;
+    border: 2px solid #f2f2f2;
+    border-radius: 60px;
+    padding: 4px 20px;
+    margin-right: 6rem;
+    margin-bottom: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* margin: 0 auto;*/
+}
+
+#city{
+    padding: 0 20px;
+    border: unset;
+}
+
+.vl{
+    border-left: 2px solid #f2f2f2;
+    height: 30px;
+}
+/*photo section*/
+
+.photo-section{
+    width: 90%;
+    /*margin-top: -1rem;*/
+    margin: 0 auto;
+    box-shadow: 2px 2px 8px   #c6c7c6;
+    border: #c6c7c6;
+    border-radius: 2rem;
+    border-top: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*padding-top:1rem;*/
+   
+}
+
+/*image part*/
+.photo{
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-image: url("images/helikopter.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-top:1rem;
+   position: relative;
+}
+
+.ay02{
+    width: 10%;
+    background: #599cd0;
+    color: white;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 0.2rem;
+    position: absolute;
+    bottom: -10px;
+}
+.photo img{
+    width: 96%;
+    
+}
+/*image part end*/
+
+/*description part*/
+.description{
+    width: 90%;
+   padding: 1rem 1rem;
+  
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caption{
+    padding: 1rem 0;
+    width: 90%;
+    border-bottom:3px solid #f2f2f2 ;
+}
+
+.caption p{
+    color: #c6c7c6;
+    font-size: 14px;
+}
+
+.price{
+    padding: 0.7rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price i{
+    font-size: 26px;
+    border: 1px solid #68c473;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    
+    background: #68c473;
+}
+
+.aed{
+    font-weight: bold;
+    font-size: 16px;
+    color: #3b475f;
+}
+
+.duration{
+    color: #a2a2a3;
+    font-size: 13px;
+}
+/*description part End*/
+/*photo section END*/
+}
